@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+
+header{
+    background-color: #252525;
+    color: white;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.logo{
+    margin-right: 10px;
+    width: 4vw;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 2vw;
+    height: 5vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.sessao1{
+    background-image: url(./assets/Grupo\ 486.png); 
+}
+.sessao1 div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 19vh;
+    color: white ;
+    align-items: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.logopata{
+    width: 10vw;
+    margin-bottom: 50px;
+}
+
+.sessao2{
+    background-image: url(./assets/Interseção\ 16.png);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sessao2 div{
+    margin-left: 25px;
+    color: #3A342F;
+    width: 50%;
+    height: 50%;
+}
+
+.sessao2 p{
+    font-size: 27px;
+}
+
+.sessao2 h1{
+    font-size: 50px ;
+}
+
+button{
+    border-radius: 35px;
+    padding: 15px;
+    width: 25vw;
+    border: none;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.btn1{
+    color: #f4f2f3;
+    background-color: #3A342F;
+}
+
+.sessao3{
+    background-image: url("./assets/Grupo\ 480.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sessao3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #F4F2F3;
+    margin-right: 30px;
+    width: 50%;
+    height: 50%;
+}
+
+.sessao3 p{
+    font-size: 27px;
+}
+
+.sessao3 h1{
+    font-size: 50px ;
+}
+
+.sessao4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao4 p{
+    color: #FD6A9A;
+    font-size: 24px;
+}
+
+.sessao4 img{
+    margin: 40px;
+    width: 12vw;
+}
+
+footer{
+    background-color: #EB4A7B;
+    color: #FFFFFF;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegacao h2{
+    text-align: center;
+
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.navegacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vw;
+    height: 35vh;
+    gap: 5vw;
+    margin-right: 10vw;
+}
+.navegacao li{
+    list-style: none;
+    margin: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+}
+    
+
+.navegacao ul{
+    list-style: none;
+    color: white;
+   
+}
+
+.logofooter{
+    display: none;
+}
+.navmobile2{
+    display: none;
+}
+
+
+@media (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Serif', serif;
+    }
+    body{
+        width: 80vw;
+        height: 100vh;
+    }
+    header{
+        width: 100vw;
+    }
+    .navmobile1{
+        display: none;
+    }
+   
+
+    header div {
+        align-items: center;
+        margin-right: 50px;
+    
+    }
+
+    .logo{
+        margin-right: 25px;
+        width: 15vw;
+    }
+    nav img{
+        width: 10vw;
+        height: 5vh;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100vw;
+    }
+    .sessao1{
+        background-image: url(./assets_Mobile/Grupo\ 485.png); 
+       
+    }
+
+
+    .sessao1 div{
+        display: flex;
+        flex-direction: column;
+        color: white ;
+        align-items: center;
+        font-size: 50px;
+        margin-top: 50px;
+
+
+    }
+    .logopata{
+        width: 30vw; 
+        margin-top: 10vh;
+      
+    }
+    .sessao1 h2{
+        font-size: 30px;
+        margin-top: 8px;
+        
+    }
+    .sessao2{
+        background-image: url(./assets_Mobile/Grupo\ 484.png);
+        align-items: flex-start;  
+        width: 100vw; 
+    }
+    .sessao2 div{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 50px;
+    
+    }
+    .sessao2 h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+        align-items: center;
+        font-weight: 700;
+    }
+    .sessao2 p{
+        font-size: 15px;
+        align-items: justify;
+        margin-bottom: 10px;
+    }
+    button{
+        border-radius: 50vw;
+        padding: 15px;
+        width: 35vw;
+        border: none;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .sessao3{
+        background-image: url("./assets_Mobile/Grupo\ 496.png");
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .sessao3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #F4F2F3;
+    margin-left: 8vw;
+    margin-top: 30px;
+    
+}
+
+.sessao3 p{
+    font-size: 15px;
+}
+
+.sessao3 h1{
+    width: 80vw;
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.sessao4{
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+}
+.sessao4 p{
+    align-items: center;
+    font-size: 15px;
+}
+
+.sessao4 img{
+    width: 18vw;
+    margin: 15px 30px;
+   
+}
+footer{
+    width: 100vw;
+}
+.navegacao{
+   
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logofooter img{
+    margin-top: 10vh;
+    align-items: center;
+    width: 5vw;
+    height: 10vh;  
+    
+}
+
+.navmobile2{
+    display: block;
+}
+.navmobile2 img{
+    width: 5vw;
+}
+
+}
